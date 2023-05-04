@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "telefonkonyv::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-telefonkonyv-Debug-64f77ebf1d666b42a4c8.json",
+					"jsonFile" : "target-telefonkonyv-Debug-685c997ac337146d7b95.json",
 					"name" : "telefonkonyv",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/david/CLionProjects/c++/!Telefonk\u00f6nyv/telefonkonyv/cmake-build-debug",
-		"source" : "C:/Users/david/CLionProjects/c++/!Telefonk\u00f6nyv/telefonkonyv"
+		"build" : "C:/Users/david/CLionProjects/c++/!Telefonk\u00f6nyv/CPP NagyHZ/telefonkonyv/cmake-build-debug",
+		"source" : "C:/Users/david/CLionProjects/c++/!Telefonk\u00f6nyv/CPP NagyHZ/telefonkonyv"
 	},
 	"version" : 
 	{
