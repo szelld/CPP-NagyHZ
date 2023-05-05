@@ -14,7 +14,8 @@ class Bejegyzes {
     Bejegyzes *next;
 
 public:
-    Bejegyzes(const String& neve, const String& cime, int munkaSzama) : nev(neve), cim(cime), munkaSzam(munkaSzama), next(NULL) {}
+    Bejegyzes();
+    Bejegyzes(const char* neve, const char* cime, int munkaSzama) : nev(neve), cim(cime), munkaSzam(munkaSzama), next(NULL) {}
 
     String getNev() {return nev;}
     String getCim() {return cim;}

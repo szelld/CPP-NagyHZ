@@ -12,11 +12,13 @@ class Ember: public Bejegyzes {
     int privatSzam;
 
 public:
-    Ember(const String& neve, const String& cime, int munkaSzama, const String& beceneve, int privatSzama) : Bejegyzes(neve, cime, munkaSzama), becenev(beceneve), privatSzam(privatSzama) {}
+    Ember(const char* neve, const char* cime, int munkaSzama, const char* beceneve, int privatSzama) : Bejegyzes(neve, cime, munkaSzama), becenev(beceneve), privatSzam(privatSzama) {}
     String getBecenev() {return becenev;}
     int getPrivatSzam() const {return privatSzam;}
-    void setBecenev(String beceneve) {becenev = beceneve;}
-    void setPrivatSzam(int privatSzama) {privatSzam = privatSzama;}
+
+
+    //void setBecenev(String beceneve) {becenev = beceneve;}
+    //void setPrivatSzam(int privatSzama) {privatSzam = privatSzama;}
 
    ~Ember() {}
 };

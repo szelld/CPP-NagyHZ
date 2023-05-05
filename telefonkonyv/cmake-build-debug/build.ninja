@@ -79,6 +79,12 @@ build CMakeFiles/telefonkonyv.dir/Ceg.cpp.obj: CXX_COMPILER__telefonkonyv_Debug 
   OBJECT_DIR = CMakeFiles\telefonkonyv.dir
   OBJECT_FILE_DIR = CMakeFiles\telefonkonyv.dir
 
+build CMakeFiles/telefonkonyv.dir/Telefonkonyv.cpp.obj: CXX_COMPILER__telefonkonyv_Debug C$:/Users/david/CLionProjects/c++/!Telefonkönyv/CPP$ NagyHZ/telefonkonyv/Telefonkonyv.cpp || cmake_object_order_depends_target_telefonkonyv
+  DEP_FILE = CMakeFiles\telefonkonyv.dir\Telefonkonyv.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\telefonkonyv.dir
+  OBJECT_FILE_DIR = CMakeFiles\telefonkonyv.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target telefonkonyv
@@ -87,7 +93,7 @@ build CMakeFiles/telefonkonyv.dir/Ceg.cpp.obj: CXX_COMPILER__telefonkonyv_Debug 
 #############################################
 # Link the executable telefonkonyv.exe
 
-build telefonkonyv.exe: CXX_EXECUTABLE_LINKER__telefonkonyv_Debug CMakeFiles/telefonkonyv.dir/main.cpp.obj CMakeFiles/telefonkonyv.dir/Bejegyzes.cpp.obj CMakeFiles/telefonkonyv.dir/string5.cpp.obj CMakeFiles/telefonkonyv.dir/Ember.cpp.obj CMakeFiles/telefonkonyv.dir/Ceg.cpp.obj
+build telefonkonyv.exe: CXX_EXECUTABLE_LINKER__telefonkonyv_Debug CMakeFiles/telefonkonyv.dir/main.cpp.obj CMakeFiles/telefonkonyv.dir/Bejegyzes.cpp.obj CMakeFiles/telefonkonyv.dir/string5.cpp.obj CMakeFiles/telefonkonyv.dir/Ember.cpp.obj CMakeFiles/telefonkonyv.dir/Ceg.cpp.obj CMakeFiles/telefonkonyv.dir/Telefonkonyv.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\telefonkonyv.dir
