@@ -12,13 +12,8 @@ class Ceg: public Bejegyzes {
     int adoSzam;
 
 public:
-    Ceg(const char* neve, const char* cime, int munkaSzama, const char* tipusa, int adoSzama) : Bejegyzes(neve, cime, munkaSzama), tipus(tipusa), adoSzam(adoSzama) {}
-
-
-    //String getTipus() {return tipus;}
-    //int getAdoszam() const {return adoSzam;}
-    //void setTipus(String tipusa) {tipus = tipusa;}
-    //void setAdoSzama(int adoSzama) {adoSzam = adoSzama;}
+    Ceg(const String& neve, const String& cime, int munkaSzama, const String& tipusa, int adoSzama) : Bejegyzes(neve, cime, munkaSzama), tipus(tipusa), adoSzam(adoSzama) {}
+    void kiir();
 
     ~Ceg() {}
 };

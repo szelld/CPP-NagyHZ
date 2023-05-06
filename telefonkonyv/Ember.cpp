@@ -3,3 +3,7 @@
 //
 
 #include "Ember.h"
+
+void Ember::kiir() {
+    std::cout << getNev() << " " << getCim() << " " << getMunkaSzam() << " " << privatSzam << " " << becenev << std::endl;
+}

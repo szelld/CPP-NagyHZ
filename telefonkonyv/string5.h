@@ -37,15 +37,6 @@ public:
     /// Destruktor (disposeString)
     ~String() { delete[] pData; }
 
-  /// Egyéb tagfüggvények:
-    /// Kiírunk egy Stringet (debug célokra) (ez kész)
-    /// Elötte kiírunk egy tetszőleges szöveget.
-    /// @param txt - nullával lezárt szövegre mutató pointer
-    void printDbg(const char *txt = "") const {
-        std::cout << txt << "[" << len << "], "
-                  << (pData ? pData : "(NULL)") << std::endl;
-    }
-
   /// Operátorok:
     /// Értékadó operátor is kell !
     /// @param rhs_s - jobboldali String
@@ -83,7 +74,6 @@ String& operator+=(const String& rhs_s) {
     ///         Indexelési hiba esetén const char* kivételt dob (assert helyett).
     const char& operator[](unsigned int idx) const;
 
-    void erase() { *this = ""; }
 };
 
 /// Globális függvények:

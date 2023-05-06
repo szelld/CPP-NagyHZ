@@ -8,27 +8,16 @@
 
 int main() {
 
-    int cegekSzama=0, emberekSzama=0;
+    Telefonkonyv test;
 
-    Bejegyzes *a= new Bejegyzes("Fnyad", "fa", 1);
-    Bejegyzes *b= new Bejegyzes("Anyad", "fa", 1);
+    for (int i = 0; i < test.getLen(); ++i) {
+        test[i]->kiir();
+    }
 
-    int nyolc = a->osszehasonlit(*b);
 
-    std::cout << nyolc;
 
-    Bejegyzes *c = new Ember("Arany Jani", "Fa", 14, "Jancsi", 15);
 
-    Telefonkonyv::setEmber(5);
-
-    //Telefonkonyv telefonkonyv;
-
-    //telefonkonyv
-
-    std::ifstream be;
-    be.open("txt");
-    String test;
-    std::getline(be,test);  ///char*-ba kell beolvasni majd azt kell beleKonstruktálni az ember/ceg be hogy mukodjon a beolvasas
+    //std::getline(be,test);
     ///telefonkonyvben lesz egy init, ott lesz a file beolvasasa+tombfeltotes és lesz egy insert op ami berakja a megfelelő pointerre
 
     return 0;

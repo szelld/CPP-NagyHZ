@@ -14,18 +14,14 @@ class Bejegyzes {
     Bejegyzes *next;
 
 public:
-    Bejegyzes();
-    Bejegyzes(const char* neve, const char* cime, int munkaSzama) : nev(neve), cim(cime), munkaSzam(munkaSzama), next(NULL) {}
+    Bejegyzes(): nev(""), cim(""), munkaSzam(0), next(NULL) {}
+    Bejegyzes(const String neve, const String cime, int munkaSzama) : nev(neve), cim(cime), munkaSzam(munkaSzama), next(NULL) {}
+    int osszehasonlit (const Bejegyzes& rhs);
+    virtual void kiir() {}
 
     String getNev() {return nev;}
     String getCim() {return cim;}
     int getMunkaSzam() const {return munkaSzam;}
-    void setNev(const String& neve) {nev = neve;}
-    void setCim(const String& cime) {cim = cime;}
-    void setMunkaSzam(const int munkaSzama) {munkaSzam = munkaSzama;}
-
-    int osszehasonlit (const Bejegyzes& rhs);
-
 
     virtual ~Bejegyzes(){}
 };

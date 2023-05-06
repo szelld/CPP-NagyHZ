@@ -8,3 +8,4 @@
 int Bejegyzes::osszehasonlit(const Bejegyzes &rhs) {
     return strcmp(nev.c_str(), rhs.nev.c_str());
 }
+
