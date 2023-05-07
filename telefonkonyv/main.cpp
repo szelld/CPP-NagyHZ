@@ -10,9 +10,8 @@ int main() {
 
     Telefonkonyv test;
 
-    for (int i = 0; i < test.getLen(); ++i) {
-        test[i]->kiir();
-    }
+
+    test.listaz();
 
 
 

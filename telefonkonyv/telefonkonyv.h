@@ -56,7 +56,13 @@ public:
 
     size_t getLen() {return len;}
 
-    Bejegyzes* operator[](size_t idx) {return tabla[idx];}
+    //Bejegyzes* operator[](size_t idx) {return *tabla[idx];}
+
+    void listaz () {
+        for (size_t i = 0; i < len; ++i) {
+            tabla[i]->kiir();
+        }
+    }
 
     ~Telefonkonyv() {
         for (int i = 0; i < emberek+cegek; ++i) {
